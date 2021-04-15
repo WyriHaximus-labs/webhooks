@@ -1,11 +1,11 @@
 [
   {
     "name": "check_run",
-    "description": "Check run activity has occurred. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[check runs](/en/enterprise-server@3.0/rest/reference/checks#runs)\" REST API.",
+    "description": "Check run activity has occurred. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[check runs](https://docs.github.com/en/enterprise-server@3.0/rest/reference/checks#runs)\" REST API.",
     "properties": {
       "check_run": {
         "type": "object",
-        "description": "The [check\\_run](/en/enterprise-server@3.0/rest/reference/checks#get-a-check-run)."
+        "description": "The [check\\_run](https://docs.github.com/en/enterprise-server@3.0/rest/reference/checks#get-a-check-run)."
       },
       "check_run[status]": {
         "type": "string",
@@ -37,11 +37,11 @@
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -443,11 +443,11 @@
   },
   {
     "name": "check_suite",
-    "description": "Check suite activity has occurred. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[check suites](/en/enterprise-server@3.0/rest/reference/checks#suites)\" REST API.",
+    "description": "Check suite activity has occurred. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[check suites](https://docs.github.com/en/enterprise-server@3.0/rest/reference/checks#suites)\" REST API.",
     "properties": {
       "check_suite": {
         "type": "object",
-        "description": "The [check\\_suite](/en/enterprise-server@3.0/rest/reference/checks#suites)."
+        "description": "The [check\\_suite](https://docs.github.com/en/enterprise-server@3.0/rest/reference/checks#suites)."
       },
       "check_suite[head_branch]": {
         "type": "string",
@@ -475,11 +475,11 @@
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -783,11 +783,11 @@
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -951,19 +951,19 @@
   },
   {
     "name": "commit_comment",
-    "description": "A commit comment is created. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[commit comment](/en/enterprise-server@3.0/rest/reference/repos#comments)\" REST API.",
+    "description": "A commit comment is created. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[commit comment](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#comments)\" REST API.",
     "properties": {
       "comment": {
         "type": "object",
-        "description": "The [commit comment](/en/enterprise-server@3.0/rest/reference/repos#get-a-commit-comment) resource."
+        "description": "The [commit comment](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-commit-comment) resource."
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -1147,7 +1147,7 @@
   },
   {
     "name": "content_reference",
-    "description": "A new content reference is `created`. A new content reference is created when the body or comment of an issue or pull request includes a URL that matches a configured content reference domain. For more information, see \"[Using content attachments](/en/enterprise-server@3.0/apps/using-content-attachments)\" to learn more about content references and attachments.\n\nWebhook events are triggered based on the specificity of the domain you register. For example, if you register a subdomain (`https://subdomain.example.com`) then only URLs for the subdomain trigger this event. If you register a domain (`https://example.com`) then URLs for domain and all subdomains trigger this event. See \"[Create a content attachment](/en/enterprise-server@3.0/rest/reference/apps#create-a-content-attachment)\" to create a new content attachment.\n\nOnly GitHub Apps can receive this event. GitHub Apps must have the `content_references` `write` permission to subscribe to this event.",
+    "description": "A new content reference is `created`. A new content reference is created when the body or comment of an issue or pull request includes a URL that matches a configured content reference domain. For more information, see \"[Using content attachments](/en/enterprise-server@3.0/apps/using-content-attachments)\" to learn more about content references and attachments.\n\nWebhook events are triggered based on the specificity of the domain you register. For example, if you register a subdomain (`https://subdomain.example.com`) then only URLs for the subdomain trigger this event. If you register a domain (`https://example.com`) then URLs for domain and all subdomains trigger this event. See \"[Create a content attachment](https://docs.github.com/en/enterprise-server@3.0/rest/reference/apps#create-a-content-attachment)\" to create a new content attachment.\n\nOnly GitHub Apps can receive this event. GitHub Apps must have the `content_references` `write` permission to subscribe to this event.",
     "properties": {},
     "actions": [],
     "examples": [
@@ -1280,11 +1280,11 @@
   },
   {
     "name": "create",
-    "description": "A Git branch or tag is created. For more information, see the \"[Git data](/en/enterprise-server@3.0/rest/reference/git)\" REST API.",
+    "description": "A Git branch or tag is created. For more information, see the \"[Git data](https://docs.github.com/en/enterprise-server@3.0/rest/reference/git)\" REST API.",
     "properties": {
       "ref": {
         "type": "string",
-        "description": "The [`git ref`](/en/enterprise-server@3.0/rest/reference/git#get-a-reference) resource."
+        "description": "The [`git ref`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/git#get-a-reference) resource."
       },
       "ref_type": {
         "type": "string",
@@ -1304,11 +1304,11 @@
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -1462,11 +1462,11 @@
   },
   {
     "name": "delete",
-    "description": "A Git branch or tag is deleted. For more information, see the \"[Git data](/en/enterprise-server@3.0/rest/reference/git)\" REST API.",
+    "description": "A Git branch or tag is deleted. For more information, see the \"[Git data](https://docs.github.com/en/enterprise-server@3.0/rest/reference/git)\" REST API.",
     "properties": {
       "ref": {
         "type": "string",
-        "description": "The [`git ref`](/en/enterprise-server@3.0/rest/reference/git#get-a-reference) resource."
+        "description": "The [`git ref`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/git#get-a-reference) resource."
       },
       "ref_type": {
         "type": "string",
@@ -1478,11 +1478,11 @@
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -1634,19 +1634,19 @@
   },
   {
     "name": "deploy_key",
-    "description": "A deploy key is added or removed from a repository. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[Deploy keys](/en/enterprise-server@3.0/rest/reference/repos#keys)\" REST API.",
+    "description": "A deploy key is added or removed from a repository. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[Deploy keys](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#keys)\" REST API.",
     "properties": {
       "key": {
         "type": "object",
-        "description": "The [`deploy key`](/en/enterprise-server@3.0/rest/reference/repos#get-a-deploy-key) resource."
+        "description": "The [`deploy key`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-deploy-key) resource."
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "sender": {
         "type": "object",
@@ -1784,19 +1784,19 @@
   },
   {
     "name": "deployment",
-    "description": "A deployment is created. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[deployment](/en/enterprise-server@3.0/rest/reference/repos#list-deployments)\" REST API.",
+    "description": "A deployment is created. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[deployment](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#list-deployments)\" REST API.",
     "properties": {
       "deployment": {
         "type": "object",
-        "description": "The [deployment](/en/enterprise-server@3.0/rest/reference/repos#list-deployments)."
+        "description": "The [deployment](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#list-deployments)."
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -1981,11 +1981,11 @@
   },
   {
     "name": "deployment_status",
-    "description": "A deployment is created. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[deployment statuses](/en/enterprise-server@3.0/rest/reference/repos#list-deployment-statuses)\" REST API.",
+    "description": "A deployment is created. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[deployment statuses](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#list-deployment-statuses)\" REST API.",
     "properties": {
       "deployment_status": {
         "type": "object",
-        "description": "The [deployment status](/en/enterprise-server@3.0/rest/reference/repos#list-deployment-statuses)."
+        "description": "The [deployment status](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#list-deployment-statuses)."
       },
       "deployment_status[\"state\"]": {
         "type": "string",
@@ -2001,15 +2001,15 @@
       },
       "deployment": {
         "type": "object",
-        "description": "The [deployment](/en/enterprise-server@3.0/rest/reference/repos#list-deployments) that this status is associated with."
+        "description": "The [deployment](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#list-deployments) that this status is associated with."
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -2258,19 +2258,19 @@
   },
   {
     "name": "fork",
-    "description": "A user forks a repository. For more information, see the \"[forks](/en/enterprise-server@3.0/rest/reference/repos#forks)\" REST API.",
+    "description": "A user forks a repository. For more information, see the \"[forks](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#forks)\" REST API.",
     "properties": {
       "forkee": {
         "type": "object",
-        "description": "The created [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) resource."
+        "description": "The created [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) resource."
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -2578,11 +2578,11 @@
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -2724,7 +2724,7 @@
   },
   {
     "name": "installation",
-    "description": "Activity related to a GitHub App installation. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[GitHub App installation](/en/enterprise-server@3.0/rest/reference/apps)\" REST API.",
+    "description": "Activity related to a GitHub App installation. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[GitHub App installation](https://docs.github.com/en/enterprise-server@3.0/rest/reference/apps)\" REST API.",
     "properties": {
       "repositories": {
         "type": "array",
@@ -2867,7 +2867,7 @@
   },
   {
     "name": "installation_repositories",
-    "description": "Activity related to repositories being added to a GitHub App installation. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[GitHub App installation](/en/enterprise-server@3.0/rest/reference/apps)\" REST API.",
+    "description": "Activity related to repositories being added to a GitHub App installation. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[GitHub App installation](https://docs.github.com/en/enterprise-server@3.0/rest/reference/apps)\" REST API.",
     "properties": {
       "repository_selection": {
         "type": "string",
@@ -3023,7 +3023,7 @@
   },
   {
     "name": "issue_comment",
-    "description": "Activity related to an issue comment. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[issue comments](/en/enterprise-server@3.0/rest/reference/issues#comments)\" REST API.",
+    "description": "Activity related to an issue comment. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[issue comments](https://docs.github.com/en/enterprise-server@3.0/rest/reference/issues#comments)\" REST API.",
     "properties": {
       "changes": {
         "type": "object",
@@ -3035,19 +3035,19 @@
       },
       "issue": {
         "type": "object",
-        "description": "The [issue](/en/enterprise-server@3.0/rest/reference/issues) the comment belongs to."
+        "description": "The [issue](https://docs.github.com/en/enterprise-server@3.0/rest/reference/issues) the comment belongs to."
       },
       "comment": {
         "type": "object",
-        "description": "The [comment](/en/enterprise-server@3.0/rest/reference/issues#comments) itself."
+        "description": "The [comment](https://docs.github.com/en/enterprise-server@3.0/rest/reference/issues#comments) itself."
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -3357,11 +3357,11 @@
   },
   {
     "name": "issues",
-    "description": "Activity related to an issue. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[issues](/en/enterprise-server@3.0/rest/reference/issues#comments)\" REST API.",
+    "description": "Activity related to an issue. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[issues](https://docs.github.com/en/enterprise-server@3.0/rest/reference/issues#comments)\" REST API.",
     "properties": {
       "issue": {
         "type": "object",
-        "description": "The [issue](/en/enterprise-server@3.0/rest/reference/issues) itself."
+        "description": "The [issue](https://docs.github.com/en/enterprise-server@3.0/rest/reference/issues) itself."
       },
       "changes": {
         "type": "object",
@@ -3385,11 +3385,11 @@
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -3686,7 +3686,7 @@
   },
   {
     "name": "label",
-    "description": "Activity related to a label. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[labels](/en/enterprise-server@3.0/rest/reference/issues#labels)\" REST API.",
+    "description": "Activity related to a label. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[labels](https://docs.github.com/en/enterprise-server@3.0/rest/reference/issues#labels)\" REST API.",
     "properties": {
       "label": {
         "type": "object",
@@ -3706,11 +3706,11 @@
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -3868,11 +3868,11 @@
   },
   {
     "name": "member",
-    "description": "Activity related to repository collaborators. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[collaborators](/en/enterprise-server@3.0/rest/reference/repos#collaborators)\" REST API.",
+    "description": "Activity related to repository collaborators. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[collaborators](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#collaborators)\" REST API.",
     "properties": {
       "member": {
         "type": "object",
-        "description": "The [user](/en/enterprise-server@3.0/rest/reference/users) that was added."
+        "description": "The [user](https://docs.github.com/en/enterprise-server@3.0/rest/reference/users) that was added."
       },
       "changes": {
         "type": "object",
@@ -3884,11 +3884,11 @@
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -4058,7 +4058,7 @@
   },
   {
     "name": "membership",
-    "description": "Activity related to team membership. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[team members](/en/enterprise-server@3.0/rest/reference/teams#members)\" REST API.",
+    "description": "Activity related to team membership. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[team members](https://docs.github.com/en/enterprise-server@3.0/rest/reference/teams#members)\" REST API.",
     "properties": {
       "scope": {
         "type": "string",
@@ -4066,15 +4066,15 @@
       },
       "member": {
         "type": "object",
-        "description": "The [user](/en/enterprise-server@3.0/rest/reference/users) that was added or removed."
+        "description": "The [user](https://docs.github.com/en/enterprise-server@3.0/rest/reference/users) that was added or removed."
       },
       "team": {
         "type": "object",
-        "description": "The [team](/en/enterprise-server@3.0/rest/reference/teams) for the membership."
+        "description": "The [team](https://docs.github.com/en/enterprise-server@3.0/rest/reference/teams) for the membership."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -4186,11 +4186,11 @@
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "sender": {
         "type": "object",
@@ -4334,7 +4334,7 @@
   },
   {
     "name": "milestone",
-    "description": "Activity related to milestones. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[milestones](/en/enterprise-server@3.0/rest/reference/issues#milestones)\" REST API.",
+    "description": "Activity related to milestones. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[milestones](https://docs.github.com/en/enterprise-server@3.0/rest/reference/issues#milestones)\" REST API.",
     "properties": {
       "milestone": {
         "type": "object",
@@ -4358,11 +4358,11 @@
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -4549,7 +4549,7 @@
   },
   {
     "name": "organization",
-    "description": "Activity related to an organization and its members. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[organizations](/en/enterprise-server@3.0/rest/reference/orgs)\" REST API.",
+    "description": "Activity related to an organization and its members. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[organizations](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs)\" REST API.",
     "properties": {
       "invitation": {
         "type": "object",
@@ -4561,7 +4561,7 @@
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -4668,15 +4668,15 @@
       },
       "build": {
         "type": "object",
-        "description": "The [List GitHub Pages builds](/en/enterprise-server@3.0/rest/reference/repos#list-github-pages-builds) itself."
+        "description": "The [List GitHub Pages builds](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#list-github-pages-builds) itself."
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -4857,7 +4857,7 @@
   },
   {
     "name": "ping",
-    "description": "When you create a new webhook, we'll send you a simple `ping` event to let you know you've set up the webhook correctly. This event isn't stored so it isn't retrievable via the [Events API](/en/enterprise-server@3.0/rest/reference/activity#ping-a-repository-webhook) endpoint.",
+    "description": "When you create a new webhook, we'll send you a simple `ping` event to let you know you've set up the webhook correctly. This event isn't stored so it isn't retrievable via the [Events API](https://docs.github.com/en/enterprise-server@3.0/rest/reference/activity#ping-a-repository-webhook) endpoint.",
     "properties": {
       "zen": {
         "type": "string",
@@ -4869,7 +4869,7 @@
       },
       "hook": {
         "type": "object",
-        "description": "The [webhook configuration](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository-webhook)."
+        "description": "The [webhook configuration](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository-webhook)."
       },
       "hook[app_id]": {
         "type": "integer",
@@ -4877,11 +4877,11 @@
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "sender": {
         "type": "object",
@@ -5034,7 +5034,7 @@
   },
   {
     "name": "project_card",
-    "description": "Activity related to project cards. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[project cards](/en/enterprise-server@3.0/rest/reference/projects#cards)\" REST API.",
+    "description": "Activity related to project cards. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[project cards](https://docs.github.com/en/enterprise-server@3.0/rest/reference/projects#cards)\" REST API.",
     "properties": {
       "changes": {
         "type": "object",
@@ -5050,15 +5050,15 @@
       },
       "project_card": {
         "type": "object",
-        "description": "The [project card](/en/enterprise-server@3.0/rest/reference/projects#cards) itself."
+        "description": "The [project card](https://docs.github.com/en/enterprise-server@3.0/rest/reference/projects#cards) itself."
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -5236,7 +5236,7 @@
   },
   {
     "name": "project_column",
-    "description": "Activity related to columns in a project board. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[project columns](/en/enterprise-server@3.0/rest/reference/projects#columns)\" REST API.",
+    "description": "Activity related to columns in a project board. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[project columns](https://docs.github.com/en/enterprise-server@3.0/rest/reference/projects#columns)\" REST API.",
     "properties": {
       "changes": {
         "type": "object",
@@ -5252,15 +5252,15 @@
       },
       "project_column": {
         "type": "object",
-        "description": "The [project column](/en/enterprise-server@3.0/rest/reference/projects#columns) itself."
+        "description": "The [project column](https://docs.github.com/en/enterprise-server@3.0/rest/reference/projects#columns) itself."
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -5420,7 +5420,7 @@
   },
   {
     "name": "project",
-    "description": "Activity related to project boards. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[projects](/en/enterprise-server@3.0/rest/reference/projects)\" REST API.",
+    "description": "Activity related to project boards. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[projects](https://docs.github.com/en/enterprise-server@3.0/rest/reference/projects)\" REST API.",
     "properties": {
       "changes": {
         "type": "object",
@@ -5436,15 +5436,15 @@
       },
       "project": {
         "type": "object",
-        "description": "The [project](/en/enterprise-server@3.0/rest/reference/projects) itself."
+        "description": "The [project](https://docs.github.com/en/enterprise-server@3.0/rest/reference/projects) itself."
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -5632,11 +5632,11 @@
     "properties": {
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -5785,7 +5785,7 @@
   },
   {
     "name": "pull_request",
-    "description": "Activity related to pull requests. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[pull requests](/en/enterprise-server@3.0/rest/reference/pulls)\" REST API.",
+    "description": "Activity related to pull requests. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[pull requests](https://docs.github.com/en/enterprise-server@3.0/rest/reference/pulls)\" REST API.",
     "properties": {
       "number": {
         "type": "integer",
@@ -5805,15 +5805,15 @@
       },
       "pull_request": {
         "type": "object",
-        "description": "The [pull request](/en/enterprise-server@3.0/rest/reference/pulls) itself."
+        "description": "The [pull request](https://docs.github.com/en/enterprise-server@3.0/rest/reference/pulls) itself."
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -6309,11 +6309,11 @@
   },
   {
     "name": "pull_request_review",
-    "description": "Activity related to pull request reviews. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[pull request reviews](/en/enterprise-server@3.0/rest/reference/pulls#reviews)\" REST API.",
+    "description": "Activity related to pull request reviews. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[pull request reviews](https://docs.github.com/en/enterprise-server@3.0/rest/reference/pulls#reviews)\" REST API.",
     "properties": {
       "pull_request": {
         "type": "object",
-        "description": "The [pull request](/en/enterprise-server@3.0/rest/reference/pulls) the review pertains to."
+        "description": "The [pull request](https://docs.github.com/en/enterprise-server@3.0/rest/reference/pulls) the review pertains to."
       },
       "review": {
         "type": "object",
@@ -6325,11 +6325,11 @@
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -6833,7 +6833,7 @@
   },
   {
     "name": "pull_request_review_comment",
-    "description": "Activity related to pull request review comments in the pull request's unified diff. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[pull request review comments](/en/enterprise-server@3.0/rest/reference/pulls#comments)\" REST API.",
+    "description": "Activity related to pull request review comments in the pull request's unified diff. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[pull request review comments](https://docs.github.com/en/enterprise-server@3.0/rest/reference/pulls#comments)\" REST API.",
     "properties": {
       "changes": {
         "type": "object",
@@ -6845,19 +6845,19 @@
       },
       "pull_request": {
         "type": "object",
-        "description": "The [pull request](/en/enterprise-server@3.0/rest/reference/pulls) the comment belongs to."
+        "description": "The [pull request](https://docs.github.com/en/enterprise-server@3.0/rest/reference/pulls) the comment belongs to."
       },
       "comment": {
         "type": "object",
-        "description": "The [comment](/en/enterprise-server@3.0/rest/reference/pulls#comments) itself."
+        "description": "The [comment](https://docs.github.com/en/enterprise-server@3.0/rest/reference/pulls#comments) itself."
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -7375,7 +7375,7 @@
     "properties": {
       "ref": {
         "type": "string",
-        "description": "The full [`git ref`](/en/enterprise-server@3.0/rest/reference/git#refs) that was pushed. Example: `refs/heads/main`."
+        "description": "The full [`git ref`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/git#refs) that was pushed. Example: `refs/heads/main`."
       },
       "before": {
         "type": "string",
@@ -7387,7 +7387,7 @@
       },
       "commits": {
         "type": "array",
-        "description": "An array of commit objects describing the pushed commits. (The array includes a maximum of 20 commits. If necessary, you can use the [Commits API](/en/enterprise-server@3.0/rest/reference/repos#commits) to fetch additional commits. This limit is applied to timeline events only and isn't applied to webhook deliveries.)"
+        "description": "An array of commit objects describing the pushed commits. (The array includes a maximum of 20 commits. If necessary, you can use the [Commits API](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#commits) to fetch additional commits. This limit is applied to timeline events only and isn't applied to webhook deliveries.)"
       },
       "commits[][id]": {
         "type": "string",
@@ -7439,11 +7439,11 @@
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -7610,7 +7610,7 @@
   },
   {
     "name": "release",
-    "description": "Activity related to a release. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[releases](/en/enterprise-server@3.0/rest/reference/repos#releases)\" REST API.",
+    "description": "Activity related to a release. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[releases](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#releases)\" REST API.",
     "properties": {
       "changes[body][from]": {
         "type": "string",
@@ -7622,15 +7622,15 @@
       },
       "release": {
         "type": "object",
-        "description": "The [release](/en/enterprise-server@3.0/rest/reference/repos/#get-a-release) object."
+        "description": "The [release](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos/#get-a-release) object."
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -7827,7 +7827,7 @@
   },
   {
     "name": "repository_dispatch",
-    "description": "This event occurs when a GitHub App sends a `POST` request to the \"[Create a repository dispatch event](/en/enterprise-server@3.0/rest/reference/repos#create-a-repository-dispatch-event)\" endpoint.",
+    "description": "This event occurs when a GitHub App sends a `POST` request to the \"[Create a repository dispatch event](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#create-a-repository-dispatch-event)\" endpoint.",
     "properties": {},
     "actions": [],
     "examples": [
@@ -7971,15 +7971,15 @@
   },
   {
     "name": "repository",
-    "description": "Activity related to a repository. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[repositories](/en/enterprise-server@3.0/rest/reference/repos)\" REST API.",
+    "description": "Activity related to a repository. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[repositories](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos)\" REST API.",
     "properties": {
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -8205,7 +8205,7 @@
   },
   {
     "name": "star",
-    "description": "Activity related to a repository being starred. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[starring](/en/enterprise-server@3.0/rest/reference/activity#starring)\" REST API.",
+    "description": "Activity related to a repository being starred. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[starring](https://docs.github.com/en/enterprise-server@3.0/rest/reference/activity#starring)\" REST API.",
     "properties": {
       "starred_at": {
         "type": "string",
@@ -8213,11 +8213,11 @@
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "sender": {
         "type": "object",
@@ -8348,7 +8348,7 @@
   },
   {
     "name": "status",
-    "description": "When the status of a Git commit changes. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[statuses](/en/enterprise-server@3.0/rest/reference/repos#statuses)\" REST API.",
+    "description": "When the status of a Git commit changes. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[statuses](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#statuses)\" REST API.",
     "properties": {
       "id": {
         "type": "integer",
@@ -8376,11 +8376,11 @@
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -8618,7 +8618,7 @@
   },
   {
     "name": "team",
-    "description": "Activity related to an organization's team. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[teams](/en/enterprise-server@3.0/rest/reference/teams)\" REST API.",
+    "description": "Activity related to an organization's team. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[teams](https://docs.github.com/en/enterprise-server@3.0/rest/reference/teams)\" REST API.",
     "properties": {
       "team": {
         "type": "object",
@@ -8658,7 +8658,7 @@
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "sender": {
         "type": "object",
@@ -8676,19 +8676,19 @@
   },
   {
     "name": "team_add",
-    "description": "When a [repository is added to a team](/en/enterprise-server@3.0/rest/reference/teams#add-or-update-team-repository-permissions).",
+    "description": "When a [repository is added to a team](https://docs.github.com/en/enterprise-server@3.0/rest/reference/teams#add-or-update-team-repository-permissions).",
     "properties": {
       "team": {
         "type": "object",
-        "description": "The [team](/en/enterprise-server@3.0/rest/reference/teams) that was modified. **Note:** Older events may not include this in the payload."
+        "description": "The [team](https://docs.github.com/en/enterprise-server@3.0/rest/reference/teams) that was modified. **Note:** Older events may not include this in the payload."
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -8867,15 +8867,15 @@
   },
   {
     "name": "watch",
-    "description": "When someone stars a repository. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[starring](/en/enterprise-server@3.0/rest/reference/activity#starring)\" REST API.\n\nThe event’s actor is the [user](/en/enterprise-server@3.0/rest/reference/users) who starred a repository, and the event’s repository is the [repository](/en/enterprise-server@3.0/rest/reference/repos) that was starred.",
+    "description": "When someone stars a repository. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[starring](https://docs.github.com/en/enterprise-server@3.0/rest/reference/activity#starring)\" REST API.\n\nThe event’s actor is the [user](https://docs.github.com/en/enterprise-server@3.0/rest/reference/users) who starred a repository, and the event’s repository is the [repository](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos) that was starred.",
     "properties": {
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "installation": {
         "type": "object",
@@ -9025,7 +9025,7 @@
   },
   {
     "name": "workflow_dispatch",
-    "description": "This event occurs when someone triggers a workflow run on GitHub or sends a `POST` request to the \"[Create a workflow dispatch event](/en/enterprise-server@3.0/rest/reference/actions/#create-a-workflow-dispatch-event)\" endpoint. For more information, see \"[Events that trigger workflows](/en/enterprise-server@3.0/actions/reference/events-that-trigger-workflows#workflow_dispatch).\"",
+    "description": "This event occurs when someone triggers a workflow run on GitHub or sends a `POST` request to the \"[Create a workflow dispatch event](https://docs.github.com/en/enterprise-server@3.0/rest/reference/actions/#create-a-workflow-dispatch-event)\" endpoint. For more information, see \"[Events that trigger workflows](/en/enterprise-server@3.0/actions/reference/events-that-trigger-workflows#workflow_dispatch).\"",
     "properties": {},
     "actions": [],
     "examples": [
@@ -9177,11 +9177,11 @@
       },
       "organization": {
         "type": "object",
-        "description": "Webhook payloads contain the [`organization`](/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
+        "description": "Webhook payloads contain the [`organization`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/orgs#get-an-organization) object when the webhook is configured for an organization or the event occurs from activity in a repository owned by an organization."
       },
       "repository": {
         "type": "object",
-        "description": "The [`repository`](/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
+        "description": "The [`repository`](https://docs.github.com/en/enterprise-server@3.0/rest/reference/repos#get-a-repository) where the event occurred."
       },
       "sender": {
         "type": "object",

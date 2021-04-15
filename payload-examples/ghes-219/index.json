@@ -1396,11 +1396,11 @@
   },
   {
     "name": "deployment",
-    "description": "A deployment is created. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[deployment](/en/enterprise-server@2.19/rest/reference/repos#list-deployments)\" REST API.",
+    "description": "A deployment is created. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[deployment](https://docs.github.com/en/enterprise-server@2.19/rest/reference/repos#list-deployments)\" REST API.",
     "properties": {
       "deployment": {
         "type": "object",
-        "description": "The [deployment](/en/enterprise-server@2.19/rest/reference/repos#list-deployments)."
+        "description": "The [deployment](https://docs.github.com/en/enterprise-server@2.19/rest/reference/repos#list-deployments)."
       },
       "repository": {
         "type": "object",
@@ -1593,11 +1593,11 @@
   },
   {
     "name": "deployment_status",
-    "description": "A deployment is created. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[deployment statuses](/en/enterprise-server@2.19/rest/reference/repos#list-deployment-statuses)\" REST API.",
+    "description": "A deployment is created. The type of activity is specified in the `action` property of the payload object. For more information, see the \"[deployment statuses](https://docs.github.com/en/enterprise-server@2.19/rest/reference/repos#list-deployment-statuses)\" REST API.",
     "properties": {
       "deployment_status": {
         "type": "object",
-        "description": "The [deployment status](/en/enterprise-server@2.19/rest/reference/repos#list-deployment-statuses)."
+        "description": "The [deployment status](https://docs.github.com/en/enterprise-server@2.19/rest/reference/repos#list-deployment-statuses)."
       },
       "deployment_status[\"state\"]": {
         "type": "string",
@@ -1613,7 +1613,7 @@
       },
       "deployment": {
         "type": "object",
-        "description": "The [deployment](/en/enterprise-server@2.19/rest/reference/repos#list-deployments) that this status is associated with."
+        "description": "The [deployment](https://docs.github.com/en/enterprise-server@2.19/rest/reference/repos#list-deployments) that this status is associated with."
       },
       "repository": {
         "type": "object",
@@ -4274,7 +4274,7 @@
       },
       "build": {
         "type": "object",
-        "description": "The [List GitHub Pages builds](/en/enterprise-server@2.19/rest/reference/repos#list-github-pages-builds) itself."
+        "description": "The [List GitHub Pages builds](https://docs.github.com/en/enterprise-server@2.19/rest/reference/repos#list-github-pages-builds) itself."
       },
       "repository": {
         "type": "object",
@@ -4463,7 +4463,7 @@
   },
   {
     "name": "ping",
-    "description": "When you create a new webhook, we'll send you a simple `ping` event to let you know you've set up the webhook correctly. This event isn't stored so it isn't retrievable via the [Events API](/en/enterprise-server@2.19/rest/reference/activity#ping-a-repository-webhook) endpoint.",
+    "description": "When you create a new webhook, we'll send you a simple `ping` event to let you know you've set up the webhook correctly. This event isn't stored so it isn't retrievable via the [Events API](https://docs.github.com/en/enterprise-server@2.19/rest/reference/activity#ping-a-repository-webhook) endpoint.",
     "properties": {
       "zen": {
         "type": "string",
@@ -7227,7 +7227,7 @@
       },
       "release": {
         "type": "object",
-        "description": "The [release](/en/enterprise-server@2.19/rest/reference/repos/#get-a-release) object."
+        "description": "The [release](https://docs.github.com/en/enterprise-server@2.19/rest/reference/repos/#get-a-release) object."
       },
       "repository": {
         "type": "object",
