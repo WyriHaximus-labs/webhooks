@@ -3,6 +3,7 @@ import cheerio from "cheerio";
 import { JSONSchema7TypeName } from "json-schema";
 import TurndownService from "turndown";
 import { Section, Webhook } from ".";
+import { versions } from "./types";
 
 const turndownService = new TurndownService({
   codeBlockStyle: "fenced",
@@ -11,7 +12,10 @@ const turndownService = new TurndownService({
 const isObsoleteEvent = ($: cheerio.Root): boolean =>
   $(".warning").text().includes("Events of this type are no longer delivered");
 
-export const toWebhook = (section: Section): Webhook | null => {
+export const toWebhook = (
+  section: Section,
+  version: keyof typeof versions
+): Webhook | null => {
   const $ = cheerio.load(section.html);
 
   // ignore obsolete events that are no longer sent
@@ -25,10 +29,14 @@ export const toWebhook = (section: Section): Webhook | null => {
 
     assert.ok(url, `${element} has no url attribute`);
 
-    if (url.startsWith("/en/rest")) {
+    const v = versions[version];
+
+    if (url.startsWith("/en/rest") || url.startsWith(`/en/${v}/rest`)) {
       $(element).attr(
         "href",
-        url.replace("/en/rest", "https://docs.github.com/en/rest")
+        url
+          .replace("/en/rest", "https://docs.github.com/en/rest")
+          .replace(`/en/${v}/rest`, `https://docs.github.com/en/${v}/rest`)
       );
     }
   });

@@ -23,7 +23,9 @@ export const checkOrUpdateWebhooks = async ({
   );
   const html = await getHtml({ cached, version });
   const sections = getSections(html);
-  const webhooksFromScrapingDocs = sections.map(toWebhook).filter(isNotNull);
+  const webhooksFromScrapingDocs = sections
+    .map((section) => toWebhook(section, version!))
+    .filter(isNotNull);
   const webhooksFromPayloadExamplesByName = getActionsAndExamplesFromPayloads(
     version
   );
