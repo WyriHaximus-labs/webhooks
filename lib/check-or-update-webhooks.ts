@@ -19,7 +19,7 @@ export const checkOrUpdateWebhooks = async ({
   version,
 }: State): Promise<void> => {
   const currentWebhooks = await import(
-    `../payload-examples/${version?.toLowerCase()}/index.json`
+    `../payload-examples/${version}/index.json`
   );
   const html = await getHtml({ cached, version });
   const sections = getSections(html);
@@ -70,10 +70,8 @@ export const checkOrUpdateWebhooks = async ({
   }
 
   writeFileSync(
-    `./payload-examples/${version!.toLowerCase()}/index.json`,
-    prettier.format(JSON.stringify(webhooks, null, 2), {
-      parser: "json",
-    })
+    `./payload-examples/${version}/index.json`,
+    prettier.format(JSON.stringify(webhooks, null, 2), { parser: "json" })
   );
   console.log(`✏️  ${version}/index.json, written`);
 };
